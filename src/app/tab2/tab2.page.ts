@@ -11,7 +11,11 @@ import { PhotoService } from '../services/photo.service';
   templateUrl: 'tab2.page.html',
   styleUrls: ['tab2.page.scss'],
   standalone: true,
-  imports: [IonHeader, IonToolbar, IonTitle, IonContent, ExploreContainerComponent, IonFab, IonFabButton, IonIcon, IonGrid, IonRow, IonCol, IonImg, CommonModule]
+  imports: [
+    IonHeader, IonToolbar, IonTitle, IonContent, ExploreContainerComponent
+    , IonFab, IonFabButton, IonIcon, IonGrid, IonRow, IonCol, IonImg
+    , CommonModule
+  ]
 })
 export class Tab2Page {
 
